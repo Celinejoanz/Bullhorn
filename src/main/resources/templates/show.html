@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+
+<a href="/">Show All Tweets</a><br/>
+<span th:text="${tweet.content}"></span><br/>
+<span th:text="${tweet.postedDate}"></span><br/>
+<p th:text="${tweet.sentBy}"></p>
+
+</body>
+</html>
